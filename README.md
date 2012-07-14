@@ -21,7 +21,7 @@ Any form with `input`, `textarea` or `select` element may contain:
 * `data-errormessage-step-mismatch`
 * `data-errormessage-custom-error`
 
-To apply this data error messages in the HTML5 form just only have to code: `$('#form').civem();` on document ready function (for example, or whenever you want).
+To apply this data error messages in the HTML5 form you only need to code: `$('#form').civem();` on document ready function (just an example, but you can use it wherever you want).
 
 Show an example form in `example.html`.
 
