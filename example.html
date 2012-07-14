@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="html5, jquery, civem, custom, input, validation, error, messages" />
+        <meta name="author" content="Javier Espinosa" />
+        <title>civem - An Example of Custom Input Validation Error Messages jQuery Plugin</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="jquery.civem.js"></script>
+    </head>
+    <body>
+        <h2>An Example of Custom Input Validation Error Messages jQuery Plugin</h2>
+        <p>Click on the button:</p>
+        <form id="form-example" action="#" method="post">
+            <input type="text" data-errormessage="Your custom error message" required />
+            <button type="submit">Submit</button>
+        </form>
+    <script>
+    $(document).ready(function() {
+        $('#form-example').civem();
+    });
+    </script>
+    </body>
+</html>

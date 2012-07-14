@@ -1,14 +1,12 @@
 # Custom Input Validation Error Messages
 
-Easily change the HTML5 validation error messages to whatever you wish. For translation or consistency with your server-side error messages.
+A jQuery plugin to change the HTML5 validation error messages to whatever you wish in forms. For translation or consistency with your server-side error messages.
 
-## Quick Start
+## Quick Start & API
 
-Grab the latest [download](https://github.com/javanto/civem.js/downloads) and use `data-errormessage` and `data-errormessage-*` attributes on your `input` elements.
+Add the latest version and use `data-errormessage` and `data-errormessage-*` attributes on your `input` elements.
 
-## API
-
-Any `input`, `textarea` or `select` element may contain:
+Any form with `input`, `textarea` or `select` element may contain:
 
 * `data-errormessage` a generic error message
 
@@ -23,24 +21,11 @@ Any `input`, `textarea` or `select` element may contain:
 * `data-errormessage-step-mismatch`
 * `data-errormessage-custom-error`
 
-## [Demo](http://jsfiddle.net/hleinone/njSbH/)
+To apply this data error messages in the HTML5 form just only have to code: `$('#form').civem();` on document ready function (for example, or whenever you want).
+
+Show an example form in `example.html`.
 
 ## Tested on
 
-* Firefox 10.0.2
-* Chrome 17.0.963.56
-
-## Developing
-
-1. Fork
-1. Clone your fork
-1. Make your modifications
-1. Commit
-1. Make sure you have [node](http://nodejs.org/) and [npm](http://npmjs.org/) installed
-1. Install the required dependencies: `npm install node-fs dot uglify-js gits read needle`
-1. Install [jake](https://github.com/mde/jake): `npm install jake -g`
-1. Compile, minify and publish: `jake publish` 
-1. Test
-1. Create pull request
-1. ???
-1. Profit!
+* Chrome 20.0.1132.47
+* Firefox 13.0.1
